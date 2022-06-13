@@ -45,6 +45,7 @@ const directoresMasTitulos = directores.concat(titulos);
 
 const dirsTitsProps = [...directores, ...titulos];
 
+
 console.log('Una nueva lista que contenga las películas posteriores al 1 de enero de 2010 (utilizando filter)": ' + peliPost2010.map(pelicula => pelicula.titulo) + '\n')
 
 console.log('Una nueva lista que contenga los directores de la lista de películas original (utilizando map): ' + directores + '\n')
